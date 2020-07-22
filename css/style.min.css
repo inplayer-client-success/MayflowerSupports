@@ -631,7 +631,7 @@ a.link {
   padding: 0;
   background: transparent !important;
   border: none;
-  max-width: 900px !important;
+  max-width: 1200px !important;
 }
 
 @media (min-width: 701px) {
@@ -646,6 +646,7 @@ a.link {
 }
 
 .asset .inplayer-preview-box .inplayer-imageholder {
+  height: 380px;
   float: left;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -992,8 +993,12 @@ body #nav-wrapper .nav-container .nav-logo .logo {
 }
 
 body #about {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+body #about p {
+  padding: 0 20px;
 }
 
 body #about h2 {
