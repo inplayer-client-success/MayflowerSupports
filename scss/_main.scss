@@ -154,7 +154,25 @@ body{
     }
   }
 
+#about {
+  max-width: 900px;
+  margin: 0 auto;
+  h2 {
+    text-align: center;
+  }
+  ul {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    li {
+      list-style: none;
 
+    }
+  }
+  h3 {
+    text-align: center;
+  }
+}
 
 
 } //body
