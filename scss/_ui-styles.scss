@@ -64,7 +64,7 @@ h1, h2, h3 {
   @include transition;
 
   &:hover, &:active, &:focus{
-    background-color: #dadada !important;
+    transform: translateY(-2px);
   }
 }
 

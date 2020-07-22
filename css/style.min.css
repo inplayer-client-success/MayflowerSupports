@@ -70,7 +70,8 @@ h1, h2, h3 {
 }
 
 .cta-btn:hover, .asset .inplayer-preview-box .inplayer-buybutton .inplayer-button:hover, #preview-item .inplayer-preview-box .inplayer-buybutton .inplayer-button:hover, .cta-btn:active, .asset .inplayer-preview-box .inplayer-buybutton .inplayer-button:active, #preview-item .inplayer-preview-box .inplayer-buybutton .inplayer-button:active, .cta-btn:focus, .asset .inplayer-preview-box .inplayer-buybutton .inplayer-button:focus, #preview-item .inplayer-preview-box .inplayer-buybutton .inplayer-button:focus {
-  background-color: #dadada !important;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
 
 a {
@@ -651,6 +652,14 @@ a.link {
   left: 30px;
   width: 54%;
   padding-left: 20px;
+}
+
+.asset .inplayer-preview-box .inplayer-itemdetails h1, .asset .inplayer-preview-box .inplayer-itemdetails h2, .asset .inplayer-preview-box .inplayer-itemdetails h3, .asset .inplayer-preview-box .inplayer-itemdetails h4, .asset .inplayer-preview-box .inplayer-itemdetails p {
+  color: #fff;
+}
+
+.asset .inplayer-preview-box .inplayer-itemdetails h1 span, .asset .inplayer-preview-box .inplayer-itemdetails h2 span, .asset .inplayer-preview-box .inplayer-itemdetails h3 span, .asset .inplayer-preview-box .inplayer-itemdetails h4 span, .asset .inplayer-preview-box .inplayer-itemdetails p span {
+  color: #fff !important;
 }
 
 .asset .inplayer-preview-box .inplayer-itemdetails p {

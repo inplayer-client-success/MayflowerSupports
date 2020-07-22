@@ -41,7 +41,12 @@
         width: 54%;
         padding-left: 20px;
 
-
+        h1,h2,h3,h4,p {
+          color: #fff;
+          span {
+            color: #fff !important;
+          }
+        }
         p{
           text-align: left;
           font-weight: 400;
