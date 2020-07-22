@@ -242,7 +242,7 @@ a.link {
   padding: 30px 20px;
   width: 100%;
   max-width: 700px;
-  margin: 0 auto 30px;
+  margin: 50px auto 30px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -310,14 +310,22 @@ a.link {
   }
 }
 
+@media (max-width: 730px) {
+  #header .header-content .text h1 {
+    font-size: 2em;
+  }
+}
+
 @media (max-width: 950px) {
   #header .header-content .text {
     width: 80%;
-    margin: 0 auto;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+  }
+  #header .header-content .text h1 {
+    font-size: 2.5em;
   }
   #header .header-content .image {
     margin: 30px;
@@ -340,15 +348,22 @@ a.link {
     -ms-grid-column-align: center;
         justify-self: center;
     padding: 30px 0;
+    margin-top: 70px;
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 560px) {
   #header .header-content {
     padding: 0px;
   }
   #header .header-content .text h1 {
-    font-size: 2.5em;
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 440px) {
+  #header .header-content .text h1 {
+    font-size: 28px;
   }
 }
 
