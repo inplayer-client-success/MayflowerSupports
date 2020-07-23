@@ -212,7 +212,7 @@ a.link {
   background-size: cover;
   background-position: center;
   height: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -352,18 +352,9 @@ a.link {
   }
 }
 
-@media (max-width: 560px) {
-  #header .header-content {
-    padding: 0px;
-  }
-  #header .header-content .text h1 {
-    font-size: 2em;
-  }
-}
-
 @media (max-width: 440px) {
-  #header .header-content .text h1 {
-    font-size: 28px;
+  #header .header-content .text button {
+    margin-top: 50px;
   }
 }
 
@@ -931,7 +922,7 @@ body #nav-wrapper .nav-container .nav-logo {
 }
 
 body #nav-wrapper .nav-container .nav-logo .logo {
-  width: 220px;
+  width: 180px;
 }
 
 @media (min-width: 790px) {
