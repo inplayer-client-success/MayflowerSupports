@@ -1,5 +1,5 @@
 :root {
-  --dark: #0c091b;
+  --dark: #120002;
 }
 
 .hide {
@@ -119,6 +119,14 @@ a.link {
 
 .back-to-top:hover {
   opacity: 1;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.m-top0 {
+  margin-top: 0;
 }
 
 .cd-container {
@@ -389,7 +397,7 @@ a.link {
 
 #faq .faq-info ul li a.toggle {
   display: block;
-  border: 1px solid rgba(191, 189, 188, 0.32);
+  border: 1px solid rgba(191, 188, 188, 0.32);
   color: #c1c1c1;
   text-decoration: none;
   padding: 15px 20px;
@@ -399,7 +407,7 @@ a.link {
 }
 
 #faq .faq-info ul li a.toggle:hover {
-  background: #1f1e27;
+  background: rgba(83, 25, 25, 0.32);
 }
 
 #faq .faq-info ul li a.toggle.active {
@@ -1007,5 +1015,57 @@ body #about ul li {
 
 body #about h3 {
   text-align: center;
+}
+
+body #about .cast {
+  padding: 50px 30px 0;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+body #about .cast img {
+  width: 100%;
+  max-width: 800px;
+}
+
+body #about .cast .cast-txt {
+  padding: 30px;
+}
+
+body #about .cast .cast-txt p {
+  text-align: center;
+}
+
+body #about .cast .cast-txt p strong {
+  font-weight: 400;
+  color: #fff;
+}
+
+body #about .cast .cast-txt ul {
+  padding: 0;
+}
+
+body #about .cast .cast-txt ul li {
+  text-align: center;
+  list-style: none;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 1150px) {
+  body #about .cast {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.min.css.map */

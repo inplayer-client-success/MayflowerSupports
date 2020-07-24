@@ -20,7 +20,7 @@
 
 				a.toggle {
 					display: block;
-					border: 1px solid rgba(191, 189, 188, 0.32);
+					border: 1px solid rgba(191, 188, 188, 0.32);
 					color: #c1c1c1;
 					text-decoration: none;
 					padding: 15px 20px;
@@ -30,7 +30,7 @@
 
 					&:hover {
             // background: rgba(255, 255, 255, 0.1);
-						background: #1f1e27;
+						background:rgba(83, 25, 25, 0.32);
 					}
 
 					&.active {
