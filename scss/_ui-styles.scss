@@ -45,14 +45,13 @@ h1, h2, h3 {
   font-family: $font1;
   position: relative;
   cursor: pointer;
+  transition: 0.3s all  ease-out;
+  &:hover{
+    color: #222222;
+    background: white;
+    border-color: white;
+  }
 
-@include transition;
-
-&:hover{
-  background-color: #fff;
-  color: #222;
-  border-color: #fff;
-}
 
 } // button
 

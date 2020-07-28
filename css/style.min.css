@@ -57,9 +57,9 @@ h1, h2, h3 {
 }
 
 .button:hover, .cta-btn:hover, .asset .inplayer-preview-box .inplayer-buybutton .inplayer-button:hover, #preview-item .inplayer-preview-box .inplayer-buybutton .inplayer-button:hover {
-  background-color: #fff;
-  color: #222;
-  border-color: #fff;
+  color: #222222;
+  background: white;
+  border-color: white;
 }
 
 .cta-btn, .asset .inplayer-preview-box .inplayer-buybutton .inplayer-button, #preview-item .inplayer-preview-box .inplayer-buybutton .inplayer-button {

@@ -30,6 +30,10 @@ paywall.on('logout', function () {
   location.reload();
 });
 
+$('.buy-109818').click(() => {
+  paywall.showPaywall({ asset: { assetId: 109818 } });
+})
+
 function createItemElement(assetId, assetPhoto, assetTitle, assetDesc) {
   var output =
     '<div class="package-item"><div class="content" style="background-image:url(' +
