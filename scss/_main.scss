@@ -58,15 +58,18 @@ body{
 
 
           a{
-            color: #fff;
             text-decoration: none;
+            font-weight: 400;
             // text-transform: uppercase;
 
             @include transition;
 
+           &.nav-link{
+            color: #fff;
             &:hover{
               opacity: .7;
             }
+           }
           }
         }
         .login-button{
@@ -155,7 +158,7 @@ body{
   }
 
 #about {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   p {
     padding: 0 20px;
@@ -164,10 +167,15 @@ body{
     text-align: center;
   }
   ul {
+    padding: 0;
     display: block;
     margin: 0 auto;
     text-align: center;
+
     li {
+      font-family: $font1;
+      color: #fff;
+      margin: 8px 0;
       list-style: none;
 
     }
@@ -184,8 +192,9 @@ body{
     margin: 0 auto;
     // flex-wrap: wrap;
     img {
-      width: 100%;
+      width: 60%;
       max-width: 800px;
+      min-width: 300px;
     }
     .cast-txt {
       padding: 30px;

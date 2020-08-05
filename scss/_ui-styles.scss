@@ -9,9 +9,9 @@
   overflow: hidden;
 }
 
-p{
+p, ul, li{
   line-height: 1.5em;
-  color: #b1b1b1;
+  color: #cfcfcf;
   font-weight: 300;
 }
 
@@ -33,16 +33,16 @@ h1, h2, h3 {
 
 .button{
   font-family: inherit;
+  display: inline-block;
   color: #fff;
   border: 1px solid #fff;
   text-decoration:none;
   padding: 15px 25px;
   font-size: inherit;
-  font-weight: 700;
   margin: 10px;
   background-color: transparent;
   color: #fff;
-  font-family: $font1;
+  font-family: $font2;
   position: relative;
   cursor: pointer;
   transition: 0.3s all  ease-out;
@@ -57,13 +57,14 @@ h1, h2, h3 {
 
 .cta-btn{
   @extend .button;
-  background-color: #fff !important;
-  color: #222 !important;
+  background-color: #fff ;
+  color: #222;
 
   @include transition;
 
   &:hover, &:active, &:focus{
     transform: translateY(-2px);
+    background-color: #dfdfdf;
   }
 }
 
